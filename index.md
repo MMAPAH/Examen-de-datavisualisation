@@ -17,8 +17,8 @@
 
 ## 2. Sprint qualité et traitement des données
 
-Le présent jeu de données est relativement complet. En effet, nous avons un fichier contenant 6286 lignes quasiment remplies. Cependant, le sprint qualité nous a permis de constater que dans certains départements quelques cellules sont incomplètes. Il s’agit principalement des départements ayant les codes suivants : 971, 972, 973, 974, 976.
-A cet effet, nous avons choisi de supprimer ces départements présents sur la capture d'écran ci-après :
+Le présent jeu de données est relativement complet. En effet, nous avons un fichier contenant 6286 lignes quasiment remplies. Cependant, le sprint qualité nous a permis de constater que dans certains départements quelques cellules sont incomplètes. Il s’agit principalement des EPCI des départements ayant les codes suivants : 971, 972, 973, 974, 976.
+A cet effet, nous avons choisi de supprimer ces 23 EPCI présents sur la capture d'écran ci-après :
 
 ![Capture](https://user-images.githubusercontent.com/121296617/212470166-63dc9659-68cb-456a-8115-05bad399538f.png)
 
