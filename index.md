@@ -18,9 +18,9 @@
 ## 2. Sprint qualité et traitement des données
 
 Le présent jeu de données est relativement complet. En effet, nous avons un fichier contenant 6286 lignes quasiment remplies. Cependant, le sprint qualité nous a permis de constater que dans certains départements quelques cellules sont incomplètes. Il s’agit principalement des départements ayant les codes suivants : 971, 972, 973, 974, 976.
-A cet effet, nous avons choisi de supprimer ces dpartements présents sur la capture d'écran ci-après :
+A cet effet, nous avons choisi de supprimer ces départements présents sur la capture d'écran ci-après :
 
-![Capture](https://user-images.githubusercontent.com/121296617/212469867-5cd80366-8b00-4031-bca5-e577f1a35506.PNG)
+![Capture](https://user-images.githubusercontent.com/121296617/212470166-63dc9659-68cb-456a-8115-05bad399538f.png)
 
 
 
