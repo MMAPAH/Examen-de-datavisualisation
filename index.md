@@ -2,7 +2,7 @@
 
 
 ## Table des matires
-### I. Origine du jeu de données, sprint qualité et traitement des données
+### I. Origine du jeu de données, contrôle et amlioration de la qualité des données
 ### 1. Origine du jeu de données
 ### 2. Contrôle et amlioration de la qualité des données
 
