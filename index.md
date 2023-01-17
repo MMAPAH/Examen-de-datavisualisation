@@ -14,7 +14,10 @@
 
 #
 
-## I. Origine du jeu de données, contrôle et amlioration de la qualité des données
+## I. Origine des jeux de données, contrôle et amlioration de la qualité des données
+
+    Notre jeu de données principal a pour titre "Population couverte par une aide personnelle au logement en décembre par EPCI". Il est fourni sous licence ouverte sur le site open data (CAFDATA) de la Caisse des Allocations Familiales (CAF). En effet, la CAF est un organisme de droit privé 1, 2 à compétence départementale 3 chargée de verser aux particuliers des prestations financières à caractère familial ou social (prestations légales), dans des conditions déterminées par la loi 4. 
+    En vue de croiser ce jeu de données à un autre pour ressortir plus amples interprétations, nous avons choisi un jeu de données relatif aux taux de chômage localisés aux 3ᵉ trimestre (2016-2020) par départements, disponible sur le site de l'Institut National de la Statistique et des Etudes Economiques.
 
 
 ### 1. Origine du jeu de données
