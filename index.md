@@ -29,7 +29,7 @@ Ainsi, nous avons choisi de supprimer ces 23 Etablissements Publics de Coopratio
 
 ![image](https://user-images.githubusercontent.com/121296617/212471136-f34dd37f-4d17-45a0-b012-2d02607d0925.png)
 
-Nous avons également insérer dans notre jeu de données une colonne intitulée " LIBELLE_DEP " afin d'associer à chaque numéro de département, son nom.
+Nous avons également inséré dans notre jeu de données une colonne intitulée " LIBELLE_DEP " afin d'associer à chaque numéro de département, son nom.
 
 ## II. Visualisation des données
 
