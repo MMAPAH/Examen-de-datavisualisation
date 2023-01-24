@@ -56,10 +56,6 @@ Cette visualisation a pour but de vérifier s'il existe une relation entre le ta
  2020 : taux de chômage entre 4,6% et 12,5%
  En 2020, on note tout d'abord la baisse du taux de chômage. Ce dernier est compris entre 4,6% et 12,5%. Toutes les taux élévés restent visbiles dans les départements du Nord et du Sud. 
  
- <iframe title="[ Total allocataires de la branche famille, 2020 ]" aria-label="Map" id="datawrapper-chart-PEtBw" src="https://datawrapper.dwcdn.net/PEtBw/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="680" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
- 
- 
-
 Nous avons choisi de visualiser les données relatives aut total des allocataires de la branche famille. En effet, la branche Famille gère deux minima sociaux et un complément de revenus à savoir :
 - l'allocation aux adultes handicapés (Aah), versée à plus d'un million de personnes de plus de 20 ans dont le taux d'invalidité est au moins de 50% et qui ont de faibles ressources financières ; 
 - et le revenu de solidarité active (Rsa), prestation qui garantit un montant minimal de ressources aux personnes sans activité. Il assure également un complément de revenu aux personnes qui ont de faibles revenus d'activité. Ce qui permet de faire le lien avec la visualisation du taux de chômage.
@@ -68,12 +64,14 @@ Notons que la notion d'allocataire est une notion de foyer (à rapprocher par ex
  
 <iframe title="[ Total allocataires de la branche famille, 2016]" aria-label="Map" id="datawrapper-chart-QxJRs" src="https://datawrapper.dwcdn.net/QxJRs/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="644" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
  
-On constate que  
+On constate ici que le nombre de foyers bénéficiant d'une aide de la branche famille est élevé de façon particulière dans les départements de l'Ouest, ainsi que dans une partie des départements situés au Nord et au Sud. 
  
  
+ <iframe title="[ Total allocataires de la branche famille, 2020 ]" aria-label="Map" id="datawrapper-chart-PEtBw" src="https://datawrapper.dwcdn.net/PEtBw/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="680" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
-
-
+Conclusion partielle 
+ 
+En 2020, le nombre d'allocatires à considérablement augmenté dans toutes les régions. L'on aurait logiquement pensé que plus le taux de chômage diminuait, plus le nombre de foyers bénéficiares d'aides de la branche famille diminuerait également. Ce qui n'est pourtant pas le cas. En effet, entre 2016 et 2020, le taux de chômage est passé de l'intervalle 6,2%-15,4% à l'intervalle 4,6%-12,5%, Or le nombre d'allocataires est passé de /////////////////////////////////////////////////////////////. Il est important de noter qu'en 2020, en plus des régions partielles du Nord et du Sud ayant des taux élevés de chômage, tous les départements de l'Ouest perçoievnt une aide de la branche famille avec un nombre assez élevé. En tenant compte du fait que cette région avait un faible taux de chômage cette même année, nous pouvons dire que cette région a soit un nombre élévé d'adultes handicapés, soit un fort taux de personnes à faibles revenus d'activité.
  
  
 
