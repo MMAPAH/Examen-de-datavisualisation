@@ -1,4 +1,3 @@
-# Projet de datavisualisation : Population couverte par une aide personnelle au logement en décembre par EPCI
 ![carte-de-france-des-departements-et-regions-800](https://user-images.githubusercontent.com/121296617/213013289-f8196b68-da5a-442f-b4a8-1fe01af00c12.jpg)
 
 
