@@ -55,3 +55,11 @@ Cette visualisation a pour but de vérifier s'il existe une relation entre le ta
  <iframe title="[ Taux de chômage par département, 2020 ]" aria-label="Map" id="datawrapper-chart-QxJRs" src="https://datawrapper.dwcdn.net/QxJRs/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="655" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
  
 En 2020, on note tout d'abord la baisse du taux de chômage. Ce dernier est compris entre 6,6% et 8,8%. Toutes les taux élévés restent visbiles dans les départements du Nord et du Sud. 
+ 
+ 
+ 
+ 
+
+Nous avons choisi de visualiser les données relatives aut total des foyers allocataires de la branche famille. En effet, la branche Famille gère deux minima sociaux et un complément de revenus à savoir :
+- l'allocation aux adultes handicapés (Aah), versée à plus d'un million de personnes de plus de 20 ans dont le taux d'invalidité est au moins de 50% et qui ont de faibles ressources financières ; 
+- et le revenu de solidarité active (Rsa), prestation qui garantit un montant minimal de ressources aux personnes sans activité. Il assure également un complément de revenu aux personnes qui ont de faibles revenus d'activité. Ce qui permet de faire le lien avec la visualisation du taux de chômage.
