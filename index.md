@@ -60,6 +60,8 @@ En 2020, on note tout d'abord la baisse du taux de chômage. Ce dernier est comp
  
  
 
-Nous avons choisi de visualiser les données relatives aut total des foyers allocataires de la branche famille. En effet, la branche Famille gère deux minima sociaux et un complément de revenus à savoir :
+Nous avons choisi de visualiser les données relatives aut total des allocataires de la branche famille. En effet, la branche Famille gère deux minima sociaux et un complément de revenus à savoir :
 - l'allocation aux adultes handicapés (Aah), versée à plus d'un million de personnes de plus de 20 ans dont le taux d'invalidité est au moins de 50% et qui ont de faibles ressources financières ; 
 - et le revenu de solidarité active (Rsa), prestation qui garantit un montant minimal de ressources aux personnes sans activité. Il assure également un complément de revenu aux personnes qui ont de faibles revenus d'activité. Ce qui permet de faire le lien avec la visualisation du taux de chômage.
+ 
+Notons que la notion d'allocataire est une notion de foyer (à rapprocher par exemple des ménages au sens Insee) et non d'individu. Ainsi, compter des allocataires signifie compter des foyers constitués de personnes seules ou de plusieurs personnes (familles).
