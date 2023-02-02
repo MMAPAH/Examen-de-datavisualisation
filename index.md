@@ -41,6 +41,8 @@ Nous avons également inséré dans notre jeu de données une colonne intitulée
 
 ### 2. Deuxième visualisation : Evolution des différentes aides octroyées
 
+<div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/12630058"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
 
 ### 3. Troisième visualisation : Rapport entre les aides aux logement et le taux de chômage par département
 
