@@ -30,6 +30,9 @@ Ainsi, nous avons choisi de supprimer ces 23 Etablissements Publics de Coopratio
 ![image](https://user-images.githubusercontent.com/121296617/212471136-f34dd37f-4d17-45a0-b012-2d02607d0925.png)
 
 Nous avons également inséré dans notre jeu de données une colonne intitulée " LIBELLE_DEP " afin d'associer à chaque numéro de département, son nom.
+Notre jeu de données se présente ainsi de la manière suivante :
+
+<iframe title="Population couverte par une aide personnelle au logement en décembre (2016-2020)" aria-label="Table" id="datawrapper-chart-n1Azn" src="https://datawrapper.dwcdn.net/n1Azn/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1273" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
 ## II. Visualisation des données
 
