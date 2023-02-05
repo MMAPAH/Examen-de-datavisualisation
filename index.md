@@ -36,18 +36,22 @@ Notre jeu de données se présente ainsi de la manière suivante :
 
 ## II. Visualisation des données
 
-### 1. Première visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions
+### 1. Première visualisation : Population couverte par une aide au logement par département
+ 
+<div class="flourish-embed flourish-chart" data-src="visualisation/12655056"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+### 2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions
 
 <iframe title="[ Pourcentage d'allocataires de la branche famille par ordre croissant des régions]" aria-label="Multiple Donuts" id="datawrapper-chart-aCbwt" src="https://datawrapper.dwcdn.net/aCbwt/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="686" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
 
 
-### 2. Deuxième visualisation : Evolution des différentes aides octroyées
+### 2. Troisième visualisation : Evolution des différentes aides octroyées
 
 <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/12630058"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
-### 3. Troisième visualisation : Rapport entre les aides aux logement et le taux de chômage par département
+### 3. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département
 
 Cette visualisation a pour but de vérifier s'il existe une relation entre le taux de chômage et le nombre d'aides allouées aux populations en fonction des départements. Pour cela, nous avons limité notre étude à 2016 et 2020 qui réprésentent les dates extrêmes de notre période d'étude. L'outil utilisé est datawrapper. 
 
