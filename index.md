@@ -36,9 +36,9 @@ Notre jeu de données se présente ainsi de la manière suivante :
 
 ## II. Visualisation des données
 
-### 1. Première visualisation : Foyers bénéficiant des différents aides par département et par EPCI
+### 1. Première visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions
 
-
+<iframe title="[ Pourcentage d'allocataires de la branche famille par ordre croissant des régions]" aria-label="Multiple Donuts" id="datawrapper-chart-aCbwt" src="https://datawrapper.dwcdn.net/aCbwt/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="686" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
 
 
