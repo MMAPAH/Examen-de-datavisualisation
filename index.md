@@ -36,9 +36,11 @@ Notre jeu de données se présente ainsi de la manière suivante :
 
 ## II. Visualisation des données
 
-### 1. Première visualisation : Population couverte par une aide au logement par département
+### 1. Première visualisation : Nombre de foyers couverts par une aide au logement par département
+
+EXPLIQUER ICI LES DIFFERENTES AIDES PROJETEES : BRANCHE FAMILLE? APL, ALS, ALF
  
-<div class="flourish-embed flourish-chart" data-src="visualisation/12655056"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-chart" data-src="visualisation/12677373"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
  
  ### 2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions
