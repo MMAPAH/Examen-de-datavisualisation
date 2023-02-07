@@ -40,15 +40,18 @@ Notre jeu de données se présente ainsi de la manière suivante :
  
 <div class="flourish-embed flourish-chart" data-src="visualisation/12655056"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-### 2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions
+ 
+ ### 2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions
 
 <iframe title="[ Pourcentage d'allocataires de la branche famille par ordre croissant des régions]" aria-label="Multiple Donuts" id="datawrapper-chart-aCbwt" src="https://datawrapper.dwcdn.net/aCbwt/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="686" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
 
 
-### 2. Troisième visualisation : Evolution des différentes aides octroyées
+### 2. Troisième visualisation : Croisement des données
+ 
+ Le but de cette visualisation est de faire le rapport entre le nombre total d'allocataires de la branche famille sous l'angle des régions, le nombre de ménages et l'estimation de la population. Ces données complémentaires ont été prises sur le site de l'Institut National d'Etudes Démographiques (INED). La période considérée est de 2016 à 2018. Toutefois, en ce qui concerne le nombre de ménages, nous n'avons uniquement trouvé les données sur l'année 2018.
 
-<div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/12630058"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-chart" data-src="visualisation/12662300"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
 ### 3. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département
