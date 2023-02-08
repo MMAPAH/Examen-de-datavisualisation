@@ -1,4 +1,4 @@
-![carte-de-france-des-departements-et-regions-800](https://user-images.githubusercontent.com/121296617/213013289-f8196b68-da5a-442f-b4a8-1fe01af00c12.jpg)
+<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%0APREFIX%20bd%3A%20%3Chttp%3A%2F%2Fwww.bigdata.com%2Frdf%23%3E%0APREFIX%20wikibase%3A%20%3Chttp%3A%2F%2Fwikiba.se%2Fontology%23%3E%0APREFIX%20wd%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0APREFIX%20wdt%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0ASELECT%20DISTINCT%20%3FcafLabel%20%3Fgeoloc%20%3FadresseLabel%0AWHERE%20%7B%0A%0A%3Fcaf%20wdt%3AP31%20wd%3AQ1395254.%20%0A%23%3Fcaf%20wdt%3AP495%20wd%3AQ142.%20%0A%23%3Fcaf%20wdt%3AP6375%20%3Fadresse%20.%0A%3Fcaf%20wdt%3AP625%20%3Fgeoloc%20.%0A%0ASERVICE%20wikibase%3Alabel%7B%20%0Abd%3AserviceParam%20wikibase%3Alanguage%20%22fr%2Cen%22%7D%0A%7D%0A%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
 
 
 ## Table des matires
