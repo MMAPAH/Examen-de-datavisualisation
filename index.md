@@ -57,7 +57,7 @@ EXPLIQUER ICI LES DIFFERENTES AIDES PROJETEES : BRANCHE FAMILLE? APL, ALS, ALF
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12677782"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-### 3. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département
+### 3. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département 
 
 Cette visualisation a pour but de vérifier s'il existe une relation entre le taux de chômage et le nombre d'aides allouées aux populations en fonction des départements. Pour cela, nous avons limité notre étude à 2016 et 2020 qui réprésentent les dates extrêmes de notre période d'étude. L'outil utilisé est datawrapper. 
  
