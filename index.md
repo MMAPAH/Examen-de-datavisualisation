@@ -1,14 +1,17 @@
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AMap%0APREFIX%20bd%3A%20%3Chttp%3A%2F%2Fwww.bigdata.com%2Frdf%23%3E%0APREFIX%20wikibase%3A%20%3Chttp%3A%2F%2Fwikiba.se%2Fontology%23%3E%0APREFIX%20wd%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0APREFIX%20wdt%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0ASELECT%20DISTINCT%20%3Fr%C3%A9gionsLabel%20%3Fgeoloc%20%0AWHERE%20%7B%0A%0A%3Fr%C3%A9gions%20wdt%3AP31%20wd%3AQ36784.%20%0A%3Fr%C3%A9gions%20wdt%3AP625%20%3Fgeoloc%20.%0A%0A%0ASERVICE%20wikibase%3Alabel%7B%20%0Abd%3AserviceParam%20wikibase%3Alanguage%20%22fr%2Cen%22%7D%0A%7D%0A%0A%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
-# Carte des différentes régions de France
+                                                 ### Carte des différentes régions de France
 
 ## Table des matires
 ### I. Origine du jeu de données, contrôle et amélioration de la qualité des données
-### 1. Origine du jeu de données 
-### 2. Contrôle et amlioration de la qualité des données
-
-
-
-
+#### 1. Origine du jeu de données 
+#### 2. Contrôle et amlioration de la qualité des données
+### II. Visualisation des données
+#### 1. Première visualisation : Nombre de foyers couverts par une aide au logement par département
+#### 2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions
+#### 3. Troisième visualisation : Croisement des données
+#### 4. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département 
+### Difficultés rencontrées
+### Conclusion
 
 
 
@@ -53,7 +56,7 @@ Notre jeu de données se présente ainsi de la manière suivante :
  
 <div class="flourish-embed flourish-hierarchy" data-src="visualisation/12715038"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
  
-Cette visualisation a été faite avec Flourish. Elle représente les différnetes aides octroyées sur un cumul de cinq années. On constate qu'il y'a plus d'allocataires de la branche famille et d'APL. De plus, le nombre d'allocataires de la branche famille est particulièrement élevé dans le département de Paris.
+Cette visualisation a été faite avec Flourish. Elle représente les différnetes aides octroyées dans les différents départements. Les filtres permettent de choisir l'année et l'aide qu'on souhaite visualiser. On peut ainsi projeter chaque allocation de façon particulière à une date donnée. En parcourant les bulles, les données suivantes sont perçues : le numéro du département, le nom du département et le nombre d'allocataires. On constate ainsi que quelque soient la nature de l'aide et l'année visualisée, Paris regorge le nombre le plus élevé d'allocataires.
  
  ### 2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions
 
