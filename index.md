@@ -49,9 +49,10 @@ Notre jeu de données se présente ainsi de la manière suivante :
     - l’allocation aux adultes handicapés (Aah), versée aux personnes de plus de 20 ans dont le taux d’invalidité est au moins de 50% et qui ont de faibles ressources financières ;
     - le revenu de solidarité active (Rsa) : il est accordé aux personnes sans ressources ou avec des ressources très faibles qui ont plus de 25 ans (ou moins de 25 ans si elles attendent un enfant ou ont au moins un enfant à charge) ;
     - la Prime d’activité vient compléter les faibles revenus salariaux des personnes de plus de 18 ans, quelle que soit leur situation familiale. 
-
  
 <div class="flourish-embed flourish-chart" data-src="visualisation/12677752"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+ 
+Cette visualisation a été faite avec Flourish. Elle représente les différnetes aides octroyées sur un cumul de cinq années. On constate qu'il y'a plus d'allocataires de la branche famille et d'APL. De plus, le nombre d'allocataires de la branche famille est particulièrement élevé dans le département de Paris.
  
  ### 2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions
 
