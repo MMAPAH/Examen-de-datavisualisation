@@ -51,7 +51,7 @@ Notre jeu de données se présente ainsi de la manière suivante :
     - la Prime d’activité vient compléter les faibles revenus salariaux des personnes de plus de 18 ans, quelle que soit leur situation familiale. 
     Notons que la notion d'allocataire est une notion de foyer (à rapprocher par exemple des ménages au sens Insee) et non d'individu. Ainsi, compter des allocataires signifie compter des foyers constitués de personnes seules ou de plusieurs personnes (familles).
  
-<div class="flourish-embed flourish-chart" data-src="visualisation/12677752"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+<div class="flourish-embed flourish-hierarchy" data-src="visualisation/12715038"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
  
 Cette visualisation a été faite avec Flourish. Elle représente les différnetes aides octroyées sur un cumul de cinq années. On constate qu'il y'a plus d'allocataires de la branche famille et d'APL. De plus, le nombre d'allocataires de la branche famille est particulièrement élevé dans le département de Paris.
  
