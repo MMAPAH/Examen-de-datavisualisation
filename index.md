@@ -41,7 +41,15 @@ Notre jeu de données se présente ainsi de la manière suivante :
 
 ### 1. Première visualisation : Nombre de foyers couverts par une aide au logement par département
 
-EXPLIQUER ICI LES DIFFERENTES AIDES PROJETEES : BRANCHE FAMILLE? APL, ALS, ALF 
+    Aujourd’hui, plusieurs aident financières existent pour le logement. Entre l’Aide Personnalisée au logement (APL), l’Allocation au Logement à caractère Social (ALS) et l’Allocation au Logement à caractère Familial (ALF), la population est souvent dans le flou. En effet :
+    - l’APL est l’aide au logement la plus récente. Elle s’adresse aux personnes percevant des revenus modestes. Peuvent être éligibles aux APL : les personnes qui habitent dans un foyer d’hébergement conventionné, les locataires, colocataires et sous-locataires (s’ils sont déclarés) ;
+    - L'allocation de logement familiale (ALF) est une aide financière destinée à réduire le montant de votre loyer. Elle est versée en raison de votre situation familiale (vous touchez des prestations familiales, vous avez des personnes à charge...). Les conditions diffèrent selon que vous relevez du régime général de la caisse d'allocations familiales (Caf) ou du régime agricole de la mutualité sociale agricole (MSA) ;
+    - créée en 1971 dans l’objectif d’aider les personnes défavorisées, l’ALS est aujourd’hui une allocation versée à tout individu (situation personnelle, professionnelle et âge confondus) qui n’entrent pas dans les critères pour toucher les APL ou ALF. 
+    La branche famille quant-à elle gère deux minima sociaux et un complément de revenus :
+    - l’allocation aux adultes handicapés (Aah), versée aux personnes de plus de 20 ans dont le taux d’invalidité est au moins de 50% et qui ont de faibles ressources financières ;
+    - le revenu de solidarité active (Rsa) : il est accordé aux personnes sans ressources ou avec des ressources très faibles qui ont plus de 25 ans (ou moins de 25 ans si elles attendent un enfant ou ont au moins un enfant à charge) ;
+    - la Prime d’activité vient compléter les faibles revenus salariaux des personnes de plus de 18 ans, quelle que soit leur situation familiale. 
+
  
 <div class="flourish-embed flourish-chart" data-src="visualisation/12677752"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
  
