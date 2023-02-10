@@ -1,5 +1,5 @@
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AMap%0APREFIX%20bd%3A%20%3Chttp%3A%2F%2Fwww.bigdata.com%2Frdf%23%3E%0APREFIX%20wikibase%3A%20%3Chttp%3A%2F%2Fwikiba.se%2Fontology%23%3E%0APREFIX%20wd%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0APREFIX%20wdt%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0ASELECT%20DISTINCT%20%3Fr%C3%A9gionsLabel%20%3Fgeoloc%20%0AWHERE%20%7B%0A%0A%3Fr%C3%A9gions%20wdt%3AP31%20wd%3AQ36784.%20%0A%3Fr%C3%A9gions%20wdt%3AP625%20%3Fgeoloc%20.%0A%0A%0ASERVICE%20wikibase%3Alabel%7B%20%0Abd%3AserviceParam%20wikibase%3Alanguage%20%22fr%2Cen%22%7D%0A%7D%0A%0A%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
-                                                 ### Carte des différentes régions de France
+### Carte des différentes régions de France
 
 ## Table des matires
 ### I. Origine du jeu de données, contrôle et amélioration de la qualité des données
@@ -10,7 +10,7 @@
 #### 2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions
 #### 3. Troisième visualisation : Croisement des données
 #### 4. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département 
-### Difficultés rencontrées
+### III. Difficultés rencontrées
 ### Conclusion
 
 
@@ -99,6 +99,25 @@ On constate ici que le nombre de foyers bénéficiant d'une aide de la branche f
  
     En 2020, le nombre d'allocatires à considérablement augmenté dans toutes les régions. L'on aurait logiquement pensé que plus le taux de chômage diminuait, plus le nombre de foyers bénéficiares d'aides de la branche famille diminuerait également. Ce qui n'est pourtant pas le cas. En effet, entre 2016 et 2020, le taux de chômage est passé de l'intervalle 6,2%-15,4% à l'intervalle 4,6%-12,5%, Or le nombre d'allocataires est passé de /////////////////////////////////////////////////////////////. Il est important de noter qu'en 2020, en plus des régions partielles du Nord et du Sud ayant des taux élevés de chômage, tous les départements de l'Ouest perçoievnt une aide de la branche famille avec un nombre assez élevé. En tenant compte du fait que cette région avait un faible taux de chômage cette même année, nous pouvons dire qu'elle a soit un nombre élévé d'adultes handicapés, soit un fort taux de personnes à faibles revenus d'activité. Ainsi, nous constatons sans risque de se tromper, que le nombre d'allocataires de la branche famille dans une région n'est particulièrement pas tributaire du taux de chômage de cette région. 
  
+### III. Difficultés rencontrées
+  
+#### 1. Les requêtes wikidata
+
+    Nous avons essayé d'afficher via une requête wikidata, les différente Caisses d'allocations familiales de France, ainsi que leurs adresse et leurs images. Toutefois, nos requêtes n'ont pas affiché le résultat escompté. Nous avons testé plusieurs requêtes parmi lesquelles la suivante :
+SELECT ?caf ?cafLabel ?localisation ?latitude ?longitude 
+WHERE { 
+?caf wdt:P31 wd:Q1395254. 
+?caf wdt:P17 wd:Q142. 
+?caf wdt:P276 ?localisation. 
+?location wdt:P625 ?coordinate. 
+?coordinate wdt:P2048 ?latitude. 
+?coordinate wdt:P2049 ?longitude. 
+SERVICE wikibase:label { 
+bd:serviceParam wikibase:language "fr". } 
+} LIMIT 100
+
+    En outre, nous avons également rencontré des difficultés pour afficher via une requête wikidata, les départements français sur une carte.
+  
+ #### 2. L'amélioration de la qualité de nos données
  
-
-
+  
