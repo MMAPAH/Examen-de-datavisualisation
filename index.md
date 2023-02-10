@@ -62,27 +62,25 @@ Cette visualisation a été faite avec Flourish. Elle représente les différnet
 
     Nous avons mis en exergue les 5 régions bénéficiant du plus grand nombre d'aides de la branche famille de 2016 à 2020. On constate que chacune de ces régions à gardé son rang au fil des années. Aussi, la région Île-de-France reste en tête avec son pourcentage de 11% qui est le même. Les données sont quasiment les mêmes pour toutes les régions, la petite différence se perçoit au niveau du nombres total d'allocataires qui croit légèrement chaque année. 
 
-### 2. Troisième visualisation : Croisement des données
+### 3. Troisième visualisation : Croisement des données
  
  Le but de cette visualisation est de ressortir, s'il y'en a, le rapport entre le nombre total d'allocataires de la branche famille sous l'angle des régions, le nombre de ménages et l'estimation de la population. Pour rappel, ces données complémentaires ont été prises sur le site de l'Institut National d'Etudes Démographiques (INED). La période considérée est de 2016 à 2020. Toutefois, en ce qui concerne le nombre de ménages, nous avons uniquement trouvé les données sur l'année 2018.
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12677782"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
  
+Au regard de l'énorme écart entre l'estimation de la population et le nombre d'allocataires, nous pouvons affirmer qu'il n'existe 
 
+### 4. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département 
 
-### 3. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département 
-
-Cette visualisation a pour but de vérifier s'il existe une relation entre le taux de chômage et le nombre d'aides allouées aux populations en fonction des départements. Pour cela, nous avons limité notre étude à 2016 et 2020 qui réprésentent les dates extrêmes de notre période d'étude. L'outil utilisé est datawrapper. 
+Cette visualisation a pour but de vérifier s'il existe une relation entre le taux de chômage et le nombre d'aides allouées aux populations en fonction des départements. Pour cela, nous avons limité notre étude à 2016 et 2020 qui réprésentent les dates extrêmes de notre période d'étude. Compte tenu de la faible évolution du nombre total d'aides, nous avons électionné uniquement ces deux années afin de faire un ressortir une différence réelle dans les projections. L'outil utilisé est Datawrapper à travers le modèle carte choroplèthe des départements français. 
  
 <iframe title="[ Taux de chômage, 2016]" aria-label="Map" id="datawrapper-chart-apMad" src="https://datawrapper.dwcdn.net/apMad/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="624" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
  
-2016 : taux de chômage entre 6,2% et 15,4%.
- Cette carte projette le taux de chômage dans les départements français en 2016. Nous pouvons constater un taux compris entre 9,2% et 10,9% (avec une tendance élevée au nord et au sud). Dans les départements situés à l'Est et à Ouest (avec une nimorité au Centre), la tendance est plutôt comprise entre 6% et 9,2%.
+    Cette carte choroplèthe projette le taux de chômage dans les départements français en 2016. Nous pouvons constater un taux compris entre 6,2% et 15,4% (avec une tendance élevée au nord et au sud). Dans les départements situés à l'Est et à Ouest (avec une nimorité au Centre), la tendance est plutôt comprise entre 6% et 9,2%.
  
 <iframe title="[ Taux de chômage, 2020]" aria-label="Map" id="datawrapper-chart-wyOta" src="https://datawrapper.dwcdn.net/wyOta/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="663" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
  
- 2020 : taux de chômage entre 4,6% et 12,5%
- En 2020, on note tout d'abord la baisse du taux de chômage. Ce dernier est compris entre 4,6% et 12,5%. Toutes les taux élévés restent visbiles dans les départements du Nord et du Sud. 
+    En 2020, on note tout d'abord la baisse du taux de chômage. Ce dernier est compris entre 4,6% et 12,5%. Toutefois, les taux élévés restent visbiles dans les départements du Nord et du Sud. 
  
 Nous avons choisi de visualiser les données relatives aut total des allocataires de la branche famille. En effet, la branche Famille gère deux minima sociaux et un complément de revenus à savoir :
 - l'allocation aux adultes handicapés (Aah), versée à plus d'un million de personnes de plus de 20 ans dont le taux d'invalidité est au moins de 50% et qui ont de faibles ressources financières ; 
