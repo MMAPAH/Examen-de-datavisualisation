@@ -64,9 +64,11 @@ Cette visualisation a été faite avec Flourish. Elle représente les différnet
 
 ### 2. Troisième visualisation : Croisement des données
  
- Le but de cette visualisation est de faire le rapport entre le nombre total d'allocataires de la branche famille sous l'angle des régions, le nombre de ménages et l'estimation de la population. Ces données complémentaires ont été prises sur le site de l'Institut National d'Etudes Démographiques (INED). La période considérée est de 2016 à 2018. Toutefois, en ce qui concerne le nombre de ménages, nous n'avons uniquement trouvé les données sur l'année 2018.
+ Le but de cette visualisation est de ressortir, s'il y'en a, le rapport entre le nombre total d'allocataires de la branche famille sous l'angle des régions, le nombre de ménages et l'estimation de la population. Pour rappel, ces données complémentaires ont été prises sur le site de l'Institut National d'Etudes Démographiques (INED). La période considérée est de 2016 à 2020. Toutefois, en ce qui concerne le nombre de ménages, nous avons uniquement trouvé les données sur l'année 2018.
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12677782"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+ 
+
 
 ### 3. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département 
 
