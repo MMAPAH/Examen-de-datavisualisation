@@ -60,15 +60,15 @@ Cette visualisation a été faite avec Flourish. Elle représente les différnet
  
  ### 2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions
 
-    Pour ressortir cette visualisation sous l'angle des régions, nous avons ajouter à nos données une nouvelle colonne dans laquelle nous avons mis pour chaque département, sa region de rattachement. L'outil utilisé ici est Datawrapper.
+Pour ressortir cette visualisation sous l'angle des régions, nous avons ajouter à nos données une nouvelle colonne dans laquelle nous avons mis pour chaque département, sa region de rattachement. L'outil utilisé ici est Datawrapper.
  
 <iframe title="[ Pourcentage d'allocataires de la branche famille par ordre croissant des régions]" aria-label="Multiple Donuts" id="datawrapper-chart-aCbwt" src="https://datawrapper.dwcdn.net/aCbwt/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="686" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
-    Nous avons mis en exergue les 5 régions bénéficiant du plus grand nombre d'aides de la branche famille de 2016 à 2020. On constate que chacune de ces régions à gardé son rang au fil des années. Aussi, la région Île-de-France reste en tête avec son pourcentage de 11% qui est le même. Les données sont quasiment les mêmes pour toutes les régions, la petite différence se perçoit au niveau du nombres total d'allocataires qui croit légèrement chaque année. 
+Nous avons mis en exergue les 5 régions bénéficiant du plus grand nombre d'aides de la branche famille de 2016 à 2020. On constate que chacune de ces régions à gardé son rang au fil des années. Aussi, la région Île-de-France reste en tête avec son pourcentage de 11% qui est le même. Les données sont quasiment les mêmes pour toutes les régions, la petite différence se perçoit au niveau du nombres total d'allocataires qui croit légèrement chaque année. 
 
 ### 3. Troisième visualisation : Croisement des données
  
- Le but de cette visualisation est de ressortir, s'il y'en a, le rapport entre le nombre total d'allocataires de la branche famille sous l'angle des régions, le nombre de ménages et l'estimation de la population. Pour rappel, ces données complémentaires ont été prises sur le site de l'Institut National d'Etudes Démographiques (INED). La période considérée est de 2016 à 2020. Toutefois, en ce qui concerne le nombre de ménages, nous avons uniquement trouvé les données sur l'année 2018.
+Le but de cette visualisation est de ressortir, s'il y'en a, le rapport entre le nombre total d'allocataires de la branche famille sous l'angle des régions, le nombre de ménages et l'estimation de la population. Pour rappel, ces données complémentaires ont été prises sur le site de l'Institut National d'Etudes Démographiques (INED). La période considérée est de 2016 à 2020. Toutefois, en ce qui concerne le nombre de ménages, nous avons uniquement trouvé les données sur l'année 2018.
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12677782"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
  
@@ -80,11 +80,11 @@ Cette visualisation a pour but de vérifier s'il existe une relation entre le ta
  
 <iframe title="[ Taux de chômage, 2016]" aria-label="Map" id="datawrapper-chart-apMad" src="https://datawrapper.dwcdn.net/apMad/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="624" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
  
-    Cette carte choroplèthe projette le taux de chômage dans les départements français en 2016. Nous pouvons constater un taux compris entre 6,2% et 15,4% (avec une tendance élevée au nord et au sud). Dans les départements situés à l'Est et à Ouest (avec une nimorité au Centre), la tendance est plutôt comprise entre 6% et 9,2%.
+Cette carte choroplèthe projette le taux de chômage dans les départements français en 2016. Nous pouvons constater un taux compris entre 6,2% et 15,4% (avec une tendance élevée au nord et au sud). Dans les départements situés à l'Est et à Ouest (avec une nimorité au Centre), la tendance est plutôt comprise entre 6% et 9,2%.
  
 <iframe title="[ Taux de chômage, 2020]" aria-label="Map" id="datawrapper-chart-wyOta" src="https://datawrapper.dwcdn.net/wyOta/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="663" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
  
-    En 2020, on note tout d'abord la baisse du taux de chômage. Ce dernier est compris entre 4,6% et 12,5%. Toutefois, les taux élévés restent visbiles dans les départements du Nord et du Sud. 
+En 2020, on note tout d'abord la baisse du taux de chômage. Ce dernier est compris entre 4,6% et 12,5%. Toutefois, les taux élévés restent visbiles dans les départements du Nord et du Sud. 
  
 Nous avons choisi de visualiser les données relatives aut total des allocataires de la branche famille. Comme nous l'avons dit plus haut, la branche Famille gère deux minima sociaux et un complément de revenus à savoir. Ce qui permet d'enviager une corrélation avec le taux de chômage.
  
@@ -95,15 +95,15 @@ On constate ici que le nombre de foyers bénéficiant d'une aide de la branche f
  
 <iframe title="[ Total allocataires de la branche famille, 2020 ]" aria-label="Map" id="datawrapper-chart-PEtBw" src="https://datawrapper.dwcdn.net/PEtBw/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="687" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
-    Conclusion partielle 
+Conclusion partielle 
  
-    En 2020, le nombre d'allocatires à considérablement augmenté dans toutes les régions. L'on aurait logiquement pensé que plus le taux de chômage diminuait, plus le nombre de foyers bénéficiares d'aides de la branche famille diminuerait également. Ce qui n'est pourtant pas le cas. En effet, entre 2016 et 2020, le taux de chômage est passé de l'intervalle 6,2%-15,4% à l'intervalle 4,6%-12,5%, Or le nombre d'allocataires est passé de /////////////////////////////////////////////////////////////. Il est important de noter qu'en 2020, en plus des régions partielles du Nord et du Sud ayant des taux élevés de chômage, tous les départements de l'Ouest perçoievnt une aide de la branche famille avec un nombre assez élevé. En tenant compte du fait que cette région avait un faible taux de chômage cette même année, nous pouvons dire qu'elle a soit un nombre élévé d'adultes handicapés, soit un fort taux de personnes à faibles revenus d'activité. Ainsi, nous constatons sans risque de se tromper, que le nombre d'allocataires de la branche famille dans une région n'est particulièrement pas tributaire du taux de chômage de cette région. 
+En 2020, le nombre d'allocatires à considérablement augmenté dans toutes les régions. L'on aurait logiquement pensé que plus le taux de chômage diminuait, plus le nombre de foyers bénéficiares d'aides de la branche famille diminuerait également. Ce qui n'est pourtant pas le cas. En effet, entre 2016 et 2020, le taux de chômage est passé de l'intervalle 6,2%-15,4% à l'intervalle 4,6%-12,5%, Or le nombre d'allocataires est passé de /////////////////////////////////////////////////////////////. Il est important de noter qu'en 2020, en plus des régions partielles du Nord et du Sud ayant des taux élevés de chômage, tous les départements de l'Ouest perçoievnt une aide de la branche famille avec un nombre assez élevé. En tenant compte du fait que cette région avait un faible taux de chômage cette même année, nous pouvons dire qu'elle a soit un nombre élévé d'adultes handicapés, soit un fort taux de personnes à faibles revenus d'activité. Ainsi, nous constatons sans risque de se tromper, que le nombre d'allocataires de la branche famille dans une région n'est particulièrement pas tributaire du taux de chômage de cette région. 
  
 ### III. Difficultés rencontrées
   
 #### 1. Les requêtes wikidata
 
-    Nous avons essayé d'afficher via une requête wikidata, les différente Caisses d'allocations familiales de France, ainsi que leurs adresse et leurs images. Toutefois, nos requêtes n'ont pas affiché le résultat escompté. Nous avons testé plusieurs requêtes parmi lesquelles la suivante :
+Nous avons essayé d'afficher via une requête wikidata, les différente Caisses d'allocations familiales de France, ainsi que leurs adresse et leurs images. Toutefois, nos requêtes n'ont pas affiché le résultat escompté. Nous avons testé plusieurs requêtes parmi lesquelles la suivante :
 SELECT ?caf ?cafLabel ?localisation ?latitude ?longitude 
 WHERE { 
 ?caf wdt:P31 wd:Q1395254. 
@@ -116,7 +116,7 @@ SERVICE wikibase:label {
 bd:serviceParam wikibase:language "fr". } 
 } LIMIT 100
 
-    En outre, nous avons également rencontré des difficultés pour afficher via une requête wikidata, les départements français sur une carte.
+En outre, nous avons également rencontré des difficultés pour afficher via une requête wikidata, les départements français sur une carte.
   
  #### 2. L'amélioration de la qualité de nos données
  - Chaque outil ayant sa particularité, la visualisation des données nécessite à chaque fois d'adaptation de la forme du fichier et même l'orthographe des données du fichier (comme ce fut le cas avec Datawrapper où il a fallut changer les libellés des département qui étaient écris en majuscule afin de respecter exactement la casse pour que datawrapper puisse valider les données) ;
