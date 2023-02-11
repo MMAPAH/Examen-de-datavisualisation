@@ -18,19 +18,19 @@
  
 ## I. Origine des jeux de données, contrôle et amélioration de la qualité des données 
 
-    Pour mieux comprendre notre jeu de données, il est nécessaire de présenter ses origines ainsi que toutes les manipulations qui y ont été faites afin d'améliorer sa qualité. 
+Pour mieux comprendre notre jeu de données, il est nécessaire de présenter ses origines ainsi que toutes les manipulations qui y ont été faites afin d'améliorer sa qualité. 
 
 ### 1. Origine du jeu de données
 
-    Notre jeu de données principal a pour titre "Population couverte par une aide personnelle au logement en décembre par EPCI". Couvrant la période de 2016 à 2020, il est fourni sous licence ouverte sur le site open data (CAFDATA) de la Caisse des Allocations Familiales (CAF). En effet, la CAF est un organisme de droit privé 1, 2 à compétence départementale 3 chargée de verser aux particuliers des prestations financières à caractère familial ou social (prestations légales), dans des conditions déterminées par la loi 4. Elle a de ce fait une compétence territoriale et une mission de service public qui consiste à reverser des aides financières soit pour des raisons familiales, soit pour des raisons sociales.
-    En vue de croiser ce jeu de données à un autre pour ressortir plus amples interprétations, nous avons choisi trois (03) jeux de données à savoir :
+Notre jeu de données principal a pour titre "Population couverte par une aide personnelle au logement en décembre par EPCI". Couvrant la période de 2016 à 2020, il est fourni sous licence ouverte sur le site open data (CAFDATA) de la Caisse des Allocations Familiales (CAF). En effet, la CAF est un organisme de droit privé 1, 2 à compétence départementale 3 chargée de verser aux particuliers des prestations financières à caractère familial ou social (prestations légales), dans des conditions déterminées par la loi 4. Elle a de ce fait une compétence territoriale et une mission de service public qui consiste à reverser des aides financières soit pour des raisons familiales, soit pour des raisons sociales.
+En vue de croiser ce jeu de données à un autre pour ressortir plus amples interprétations, nous avons choisi trois (03) jeux de données à savoir :
   - le taux de chômage localisé aux 3ᵉ trimestre (2016-2020) par départements, disponible sur le site de l'Institut National de la Statistique et des Etudes Economiques en abrégé INSEE ;
   - la population par région, téléchargeable sur le site de l'Institut Nationel d'Etudes Démographique (INED) ;
   - et le nombre de ménages par régions disponible sur le même site que le précédent.
     
 ### 2. Contrôle et amlioration de la qualité des données
 
-    Le jeu de données provenant de la CAF est relativement complet. En effet, nous avons un fichier contenant 6286 lignes quasiment remplies. Cependant, le sprint qualité nous a permis de constater que dans certains départements quelques cellules sont incomplètes. Il s’agit principalement des  Etablissements Publics de Coopration Intercommunale (EPCI) des départements ayant les codes suivants : 971, 972, 973, 974, 976.  
+Le jeu de données provenant de la CAF est relativement complet. En effet, nous avons un fichier contenant 6286 lignes quasiment remplies. Cependant, le sprint qualité nous a permis de constater que dans certains départements quelques cellules sont incomplètes. Il s’agit principalement des  Etablissements Publics de Coopration Intercommunale (EPCI) des départements ayant les codes suivants : 971, 972, 973, 974, 976.  
 Ainsi, nous avons choisi de supprimer ces 23 (EPCI) présents sur la capture d'écran ci-après :
 
 ![image](https://user-images.githubusercontent.com/121296617/212471136-f34dd37f-4d17-45a0-b012-2d02607d0925.png)
@@ -44,7 +44,7 @@ Notre jeu de données se présente ainsi de la manière suivante :
 
 ### 1. Première visualisation : Nombre de foyers couverts par une aide au logement par département
 
-    Aujourd’hui, plusieurs aident financières existent pour le logement. Entre l’Aide Personnalisée au logement (APL), l’Allocation au Logement à caractère Social (ALS) et l’Allocation au Logement à caractère Familial (ALF), la population est souvent dans le flou. En effet :
+Aujourd’hui, plusieurs aident financières existent pour le logement. Entre l’Aide Personnalisée au logement (APL), l’Allocation au Logement à caractère Social (ALS) et l’Allocation au Logement à caractère Familial (ALF), la population est souvent dans le flou. En effet :
     - l’APL est l’aide au logement la plus récente. Elle s’adresse aux personnes percevant des revenus modestes. Peuvent être éligibles aux APL : les personnes qui habitent dans un foyer d’hébergement conventionné, les locataires, colocataires et sous-locataires (s’ils sont déclarés) ;
     - L'allocation de logement familiale (ALF) est une aide financière destinée à réduire le montant de votre loyer. Elle est versée en raison de votre situation familiale (vous touchez des prestations familiales, vous avez des personnes à charge...). Les conditions diffèrent selon que vous relevez du régime général de la caisse d'allocations familiales (Caf) ou du régime agricole de la mutualité sociale agricole (MSA) ;
     - créée en 1971 dans l’objectif d’aider les personnes défavorisées, l’ALS est aujourd’hui une allocation versée à tout individu (situation personnelle, professionnelle et âge confondus) qui n’entrent pas dans les critères pour toucher les APL ou ALF. 
