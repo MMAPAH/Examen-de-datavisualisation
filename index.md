@@ -3,9 +3,9 @@
 
 ## Table des matires
 I. [Origine du jeu de données, contrôle et amélioration de la qualité des données](#Origine-des-jeux-de-données-contrôle-et-amélioration-de-la-qualité-des-données)  
-[1. Origine du jeu de données](#Origine-du-jeu-de-données) 
-[2. Contrôle et amlioration de la qualité des données](#2. Contrôle et amlioration de la qualité des données) 
-[II. Visualisation des données](#II. Visualisation des données) 
+1. [Origine du jeu de données](#Origine-du-jeu-de-données) 
+2. [Contrôle et amlioration de la qualité des données](#Contrôle-et-amlioration-de-la-qualité-des-données) 
+II. [Visualisation des données](#Visualisation-des-données) 
 [1. Première visualisation : Nombre de foyers couverts par une aide au logement par département](#1. Première visualisation : Nombre de foyers couverts par une aide au logement par département) 
 [2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions](#2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions) 
 [3. Troisième visualisation : Croisement des données](#3. Troisième visualisation : Croisement des données) 
