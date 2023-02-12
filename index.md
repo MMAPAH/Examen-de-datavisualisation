@@ -30,7 +30,7 @@ En vue de croiser ce jeu de données à un autre pour ressortir plus amples inte
 * la population par région, téléchargeable sur le site de l'Institut Nationel d'Etudes Démographique (INED) ;
 * et le nombre de ménages par régions disponible sur le même site que le précédent.
     
-### 2. Contrôle et amélioration de la qualité des données <a id="Contrôle-et-amélioration-de-la-qualité-des-données"></a>
+### 2. Contrôle et amélioration de la qualité des données <a id="Contrôle-et-amlioration-de-la-qualité-des-données"></a>
 
 Le jeu de données provenant de la CAF est relativement complet. En effet, nous avons un fichier contenant 6286 lignes quasiment remplies. Cependant, le sprint qualité nous a permis de constater que dans certains départements quelques cellules sont incomplètes. Il s’agit principalement des  Etablissements Publics de Coopration Intercommunale (EPCI) des départements ayant les codes suivants : 971, 972, 973, 974, 976.  
 Ainsi, nous avons choisi de supprimer ces 23 (EPCI) présents sur la capture d'écran ci-après :
