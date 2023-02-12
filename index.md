@@ -4,20 +4,18 @@
 [center] Carte des différentes régions de France [/center]
 
 ## Table des matires
-[I. Origine du jeu de données, contrôle et amélioration de la qualité des données](#I. Origine des jeux de données, contrôle et amélioration de la qualité des données)
-
-[1. Origine du jeu de données](#1. Origine du jeu de données)
-
-[2. Contrôle et amlioration de la qualité des données](#2. Contrôle et amlioration de la qualité des données)
-[II. Visualisation des données](#II. Visualisation des données)
-[1. Première visualisation : Nombre de foyers couverts par une aide au logement par département](#1. Première visualisation : Nombre de foyers couverts par une aide au logement par département)
-[2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions](#2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions)
-[3. Troisième visualisation : Croisement des données](#3. Troisième visualisation : Croisement des données)
-[4. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département](#4. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département)
-[III. Difficultés rencontrées](#III. Difficultés rencontrées)
-[1. Les requêtes wikidata](#1. Les requêtes wikidata)
-[2. La visualisation des données](#2. La visualisation des données)
-[Conclusion](# Conclusion)
+[I. Origine du jeu de données, contrôle et amélioration de la qualité des données](#I. Origine des jeux de données, contrôle et amélioration de la qualité des données)  
+[1. Origine du jeu de données](#1. Origine du jeu de données) 
+[2. Contrôle et amlioration de la qualité des données](#2. Contrôle et amlioration de la qualité des données) 
+[II. Visualisation des données](#II. Visualisation des données) 
+[1. Première visualisation : Nombre de foyers couverts par une aide au logement par département](#1. Première visualisation : Nombre de foyers couverts par une aide au logement par département) 
+[2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions](#2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions) 
+[3. Troisième visualisation : Croisement des données](#3. Troisième visualisation : Croisement des données) 
+[4. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département](#4. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département) 
+[III. Difficultés rencontrées](#III. Difficultés rencontrées) 
+[1. Les requêtes wikidata](#1. Les requêtes wikidata) 
+[2. La visualisation des données](#2. La visualisation des données) 
+[Conclusion](# Conclusion) 
 
 
 
