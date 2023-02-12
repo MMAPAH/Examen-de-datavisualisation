@@ -125,8 +125,11 @@ En outre, nous avons également rencontré des difficultés pour afficher via un
   
 #### 2. La visualisation des données <a id="La-visualisation-des-données"></a>
  
- - Chaque outil ayant sa particularité, la visualisation des données nécessite à chaque fois d'adaptation de la forme du fichier et même l'orthographe des données du fichier (comme ce fut le cas avec Datawrapper où il a fallut changer les libellés des département qui étaient écris en majuscule afin de respecter exactement la casse pour que datawrapper puisse valider les données) ;
- - Le manque de données sur le nombres de foyers par départements pour les années 2016, 2017, 2019 et 2010 ;
- - L'absence des données de géolocalisation qui a limité le choix des outils utilisés. De plus, les tentatives de réconciliation de ce fichier par OpenRefine se sont avérées vaines ;
+ - Chaque outil ayant sa particularité, la visualisation des données nécessite à chaque fois d'adaptation de la forme du fichier et même l'orthographe des données qu'il contient (comme ce fut le cas avec Datawrapper, où il a fallut changer les libellés des département qui étaient écris en majuscules afin de respecter exactement la casse pour que datawrapper puisse valider les données) ;
+ - Le manque de données sur le nombres de foyers par départements pour les années 2016, 2017, 2019 et 2010.
   
 # Conclusion <a id="Conclusion"></a>
+
+Lorsque nous avons plusieurs données sous les yeux, il est généralement difficile voire impossible de tirer de bonnes interprétations. Ainsi, pour faciler l'assimilation d'une grande masse de données par notre esprit, des outils de visualisation existent. C'est dans cette optique que nous avons utilisé Flourish et Datawrapper pour visualiser notre jeu de données sur les populations bénéficiant d'une aide au logement de la CAF. Afin d'enrichir notre travail, nous avons croisé notre corpus principal avec les jeux de données sur la population, sur le nombre de foyers par département ainsi que sur le taux de chômage par département. Cela nous a permis de tirer des interprétations parfois contraires à celles qui nous semblaient évidentes. La visualisation des données permet donc, grâce à des paysages qui flattent les yeux et captent les esprits, de donner du sens et de rendre évidentes des interprétations issues des données brutes et en masse. 
+La représentation des données sous forme visuelle nous a de ce fait permis d’assimiler un grand nombre d’informations en une fraction de seconde.
+Visualiser les données c’est aussi tirer des conclusions à partir des données donc des éléments concrets.
