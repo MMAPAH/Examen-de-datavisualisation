@@ -11,6 +11,8 @@
 [3. Troisième visualisation : Croisement des données](#3. Troisième visualisation : Croisement des données)
 [4. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département](#4. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département)
 [III. Difficultés rencontrées](#III. Difficultés rencontrées)
+[1. Les requêtes wikidata](#1. Les requêtes wikidata)
+[2. La visualisation des données](#2. La visualisation des données)
 [Conclusion](# Conclusion)
 
 
@@ -118,7 +120,7 @@ bd:serviceParam wikibase:language "fr". }
 
 En outre, nous avons également rencontré des difficultés pour afficher via une requête wikidata, les départements français sur une carte.
   
-#### 2. L'amélioration de la qualité de nos données
+#### 2. La visualisation des données
  - Chaque outil ayant sa particularité, la visualisation des données nécessite à chaque fois d'adaptation de la forme du fichier et même l'orthographe des données du fichier (comme ce fut le cas avec Datawrapper où il a fallut changer les libellés des département qui étaient écris en majuscule afin de respecter exactement la casse pour que datawrapper puisse valider les données) ;
  - Le manque de données sur le nombres de foyers par départements pour les années 2016, 2017, 2019 et 2010 ;
  - L'absence des données de géolocalisation qui a limité le choix des outils utilisés. De plus, les tentatives de réconciliation de ce fichier par OpenRefine se sont avérées vaines ;
