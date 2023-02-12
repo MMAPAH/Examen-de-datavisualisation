@@ -51,6 +51,7 @@ Aujourd’hui, plusieurs aident financières existent pour le logement. Entre l�
 * l’APL est l’aide au logement la plus récente. Elle s’adresse aux personnes percevant des revenus modestes. Peuvent être éligibles aux APL : les personnes qui habitent dans un foyer d’hébergement conventionné, les locataires, colocataires et sous-locataires (s’ils sont déclarés) ;
 * l'allocation de logement familiale (ALF) est une aide financière destinée à réduire le montant de votre loyer. Elle est versée en raison de votre situation familiale (vous touchez des prestations familiales, vous avez des personnes à charge...). Les conditions diffèrent selon que vous relevez du régime général de la caisse d'allocations familiales (Caf) ou du régime agricole de la mutualité sociale agricole (MSA) ;
 * créée en 1971 dans l’objectif d’aider les personnes défavorisées, l’ALS est aujourd’hui une allocation versée à tout individu (situation personnelle, professionnelle et âge confondus) qui n’entrent pas dans les critères pour toucher les APL ou ALF. 
+
 La branche famille quant-à elle gère deux minima sociaux et un complément de revenus :
 * l’allocation aux adultes handicapés (Aah), versée aux personnes de plus de 20 ans dont le taux d’invalidité est au moins de 50% et qui ont de faibles ressources financières ;
 * le revenu de solidarité active (Rsa) : il est accordé aux personnes sans ressources ou avec des ressources très faibles qui ont plus de 25 ans (ou moins de 25 ans si elles attendent un enfant ou ont au moins un enfant à charge) ;
@@ -75,7 +76,7 @@ Le but de cette visualisation est de ressortir, s'il y'en a, le rapport entre le
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/12677782"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
  
-Au regard de l'énorme écart entre l'estimation de la population et le nombre d'allocataires, nous pouvons affirmer qu'il n'existe 
+Ce graphique nous a permis de réaliser qu'il est difficile d'établir une corrélation entre l'estimation de la population et le nombre d'allocataires. On constate tout de même que le nombre de ménages dans une région est relativement égal à la moitié de la population.
 
 ### 4. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département <a id="Quatrième-visualisation-:-Rapport-entre-les-aides-aux-logements-et-le-taux-de-chômage-par-département"></a>
 
