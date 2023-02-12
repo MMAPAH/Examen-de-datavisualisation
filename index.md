@@ -33,7 +33,7 @@ En vue de croiser ce jeu de données pour ressortir plus amples interprétations
     
 ### 2. Contrôle et amélioration de la qualité des données <a id="Contrôle-et-amlioration-de-la-qualité-des-données"></a>
 
-Le jeu de données provenant de la CAF est relativement complet. En effet, nous avons un fichier contenant 6286 lignes quasiment remplies. Cependant, le sprint qualité nous a permis de constater que dans certains départements quelques cellules sont incomplètes. Il s’agit principalement des  Etablissements Publics de Coopration Intercommunale (EPCI) des départements ayant les codes suivants : 971, 972, 973, 974, 976.  
+Le jeu de données provenant de la CAF est relativement complet. En effet, nous avons un fichier contenant 6286 lignes quasiment remplies. Cependant, le sprint qualité via [la grille des 120 points](https://github.com/antoinecourtin/DEFI_2019/blob/master/sprint_qualite_grille.csv) ainsi que le sanity check avec le logiciel [Breve](http://hdlab.stanford.edu/breve/) nous ont permis de constater que dans certains départements quelques cellules sont incomplètes. Il s’agit principalement des  Etablissements Publics de Coopration Intercommunale (EPCI) des départements ayant les codes suivants : 971, 972, 973, 974, 976.  
 Ainsi, nous avons choisi de supprimer ces 23 (EPCI) présents sur la capture d'écran ci-après :
 
 ![image](https://user-images.githubusercontent.com/121296617/212471136-f34dd37f-4d17-45a0-b012-2d02607d0925.png)
