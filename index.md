@@ -39,7 +39,7 @@ Nous avons également inséré dans notre jeu de données une colonne intitulée
 Notre jeu de données se présente ainsi de la manière suivante :
 
 <iframe title="Population couverte par une aide personnelle au logement en décembre (2016-2020)" aria-label="Table" id="datawrapper-chart-n1Azn" src="https://datawrapper.dwcdn.net/n1Azn/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1273" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
-
+ 
 ## II. Visualisation des données
 
 ### 1. Première visualisation : Nombre de foyers couverts par une aide au logement par département
@@ -58,7 +58,7 @@ Notons que la notion d'allocataire est une notion de foyer (à rapprocher par ex
  
 Cette visualisation a été faite avec Flourish. Elle représente les différnetes aides octroyées dans les différents départements. Les filtres permettent de choisir l'année et l'aide qu'on souhaite visualiser. On peut ainsi projeter chaque allocation de façon particulière à une date donnée. En parcourant les bulles, les données suivantes sont perçues : le numéro du département, le nom du département et le nombre d'allocataires. On constate ainsi que quelque soient la nature de l'aide et l'année visualisée, Paris regorge le nombre le plus élevé d'allocataires.
  
- ### 2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions
+### 2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions
 
 Pour ressortir cette visualisation sous l'angle des régions, nous avons ajouter à nos données une nouvelle colonne dans laquelle nous avons mis pour chaque département, sa region de rattachement. L'outil utilisé ici est Datawrapper.
  
@@ -118,7 +118,7 @@ bd:serviceParam wikibase:language "fr". }
 
 En outre, nous avons également rencontré des difficultés pour afficher via une requête wikidata, les départements français sur une carte.
   
- #### 2. L'amélioration de la qualité de nos données
+#### 2. L'amélioration de la qualité de nos données
  - Chaque outil ayant sa particularité, la visualisation des données nécessite à chaque fois d'adaptation de la forme du fichier et même l'orthographe des données du fichier (comme ce fut le cas avec Datawrapper où il a fallut changer les libellés des département qui étaient écris en majuscule afin de respecter exactement la casse pour que datawrapper puisse valider les données) ;
  - Le manque de données sur le nombres de foyers par départements pour les années 2016, 2017, 2019 et 2010 ;
  - L'absence des données de géolocalisation qui a limité le choix des outils utilisés. De plus, les tentatives de réconciliation de ce fichier par OpenRefine se sont avérées vaines ;
