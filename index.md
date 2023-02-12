@@ -1,5 +1,5 @@
 <iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AMap%0APREFIX%20bd%3A%20%3Chttp%3A%2F%2Fwww.bigdata.com%2Frdf%23%3E%0APREFIX%20wikibase%3A%20%3Chttp%3A%2F%2Fwikiba.se%2Fontology%23%3E%0APREFIX%20wd%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fentity%2F%3E%0APREFIX%20wdt%3A%20%3Chttp%3A%2F%2Fwww.wikidata.org%2Fprop%2Fdirect%2F%3E%0ASELECT%20DISTINCT%20%3Fr%C3%A9gionsLabel%20%3Fgeoloc%20%0AWHERE%20%7B%0A%0A%3Fr%C3%A9gions%20wdt%3AP31%20wd%3AQ36784.%20%0A%3Fr%C3%A9gions%20wdt%3AP625%20%3Fgeoloc%20.%0A%0A%0ASERVICE%20wikibase%3Alabel%7B%20%0Abd%3AserviceParam%20wikibase%3Alanguage%20%22fr%2Cen%22%7D%0A%7D%0A%0A%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups"></iframe>
-[center]Carte des différentes régions de France[/center]
+[center] Carte des différentes régions de France [/center]
 
 ## Table des matires
 [I. Origine du jeu de données, contrôle et amélioration de la qualité des données](#I. Origine des jeux de données, contrôle et amélioration de la qualité des données)
