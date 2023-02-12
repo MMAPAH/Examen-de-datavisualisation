@@ -7,11 +7,11 @@
 [2. Contrôle et amlioration de la qualité des données](#2. Contrôle et amlioration de la qualité des données)
 [II. Visualisation des données](#II. Visualisation des données)
 [1. Première visualisation : Nombre de foyers couverts par une aide au logement par département](#1. Première visualisation : Nombre de foyers couverts par une aide au logement par département)
-[2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions]
-[3. Troisième visualisation : Croisement des données]
-[4. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département]
-[III. Difficultés rencontrées]
-[Conclusion]
+[2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions](#2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions)
+[3. Troisième visualisation : Croisement des données](#3. Troisième visualisation : Croisement des données)
+[4. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département](#4. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département)
+[III. Difficultés rencontrées](#III. Difficultés rencontrées)
+[Conclusion](# Conclusion)
 
 
 
@@ -123,3 +123,4 @@ En outre, nous avons également rencontré des difficultés pour afficher via un
  - Le manque de données sur le nombres de foyers par départements pour les années 2016, 2017, 2019 et 2010 ;
  - L'absence des données de géolocalisation qui a limité le choix des outils utilisés. De plus, les tentatives de réconciliation de ce fichier par OpenRefine se sont avérées vaines ;
   
+# Conclusion
