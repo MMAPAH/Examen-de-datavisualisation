@@ -7,10 +7,10 @@ I. [Origine du jeu de données, contrôle et amélioration de la qualité des do
 2. [Contrôle et amélioration de la qualité des données](#Contrôle-et-amlioration-de-la-qualité-des-données)
 
 II. [Visualisation des données](#Visualisation-des-données) 
-4. [Première visualisation : Nombre de foyers couverts par une aide au logement par département](#Première-visualisation-:-Nombre-de-foyers-couverts-par-une-aide-au-logement-par-département) 
-5. [Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions](#Deuxième-visualisation-:-Pourcentage-d'allocataires-de-la-branche-famille-par-ordre-croissant-des-régions) 
-6. [Troisième visualisation : Croisement des données](#Troisième visualisation-:-Croisement-des-données) 
-7. [Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département](#Quatrième-visualisation-:-Rapport-entre-les-aides-aux-logements-et-le-taux-de-chômage-par-département)
+4. [Première visualisation : nombre de foyers couverts par une aide au logement par département](#Première-visualisation-:-nombre-de-foyers-couverts-par-une-aide-au-logement-par-département) 
+5. [Deuxième visualisation : pourcentage d'allocataires de la branche famille par ordre croissant des régions](#Deuxième-visualisation-:-pourcentage-d'allocataires-de-la-branche-famille-par-ordre-croissant-des-régions) 
+6. [Troisième visualisation : croisement des données](#Troisième visualisation-:-croisement-des-données) 
+7. [Quatrième visualisation : rapport entre les aides aux logement et le taux de chômage par département](#Quatrième-visualisation-:-rapport-entre-les-aides-aux-logements-et-le-taux-de-chômage-par-département)
 
 III. [Difficultés rencontrées](#Difficultés-rencontrées) 
 9. [Les requêtes wikidata](#Les-requêtes-wikidata) 
@@ -45,7 +45,7 @@ Notre jeu de données se présente ainsi de la manière suivante :
  
 ## II. Visualisation des données <a id="Visualisation-des-données"></a>
 
-### 1. Première visualisation : Nombre de foyers couverts par une aide au logement par département <a id="Première-visualisation-:-Nombre-de-foyers-couverts-par-une-aide-au-logement-par-département"></a>
+### 1. Première visualisation : nombre de foyers couverts par une aide au logement par département <a id="Première-visualisation-:-Nombre-de-foyers-couverts-par-une-aide-au-logement-par-département"></a>
 
 Aujourd’hui, plusieurs aident financières existent pour le logement. Entre l’Aide Personnalisée au logement (APL), l’Allocation au Logement à caractère Social (ALS) et l’Allocation au Logement à caractère Familial (ALF), la population est souvent dans le flou. En effet :
 * l’APL est l’aide au logement la plus récente. Elle s’adresse aux personnes percevant des revenus modestes. Peuvent être éligibles aux APL : les personnes qui habitent dans un foyer d’hébergement conventionné, les locataires, colocataires et sous-locataires (s’ils sont déclarés) ;
@@ -62,7 +62,7 @@ Notons que la notion d'allocataire est une notion de foyer (à rapprocher par ex
  
 Cette visualisation a été faite avec Flourish. Elle représente les différnetes aides octroyées dans les différents départements. Les filtres permettent de choisir l'année et l'aide qu'on souhaite visualiser. On peut ainsi projeter chaque allocation de façon particulière à une date donnée. En parcourant les bulles, les données suivantes sont perçues : le numéro du département, le nom du département et le nombre d'allocataires. On constate ainsi que quelque soient la nature de l'aide et l'année visualisée, Paris regorge le nombre le plus élevé d'allocataires.
  
-### 2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions <a id="Deuxième-visualisation-:-Pourcentage-d'allocataires-de-la-branche-famille-par-ordre-croissant-des-régions"></a>
+### 2. Deuxième visualisation : pourcentage d'allocataires de la branche famille par ordre croissant des régions <a id="Deuxième-visualisation-:-Pourcentage-d'allocataires-de-la-branche-famille-par-ordre-croissant-des-régions"></a>
 
 Pour ressortir cette visualisation sous l'angle des régions, nous avons ajouté à nos données une nouvelle colonne dans laquelle nous avons mis pour chaque département, sa region de rattachement. L'outil utilisé ici est Datawrapper.
  
@@ -70,7 +70,7 @@ Pour ressortir cette visualisation sous l'angle des régions, nous avons ajouté
 
 Nous avons mis en exergue les 5 régions bénéficiant du plus grand nombre d'aides de la branche famille de 2016 à 2020. On constate que chacune de ces régions à gardé son rang au fil des années. Aussi, la région Île-de-France reste en tête avec son pourcentage de 11% qui est le même. Les données sont quasiment les mêmes pour toutes les régions, la petite différence se perçoit au niveau du nombres total d'allocataires qui croit légèrement chaque année. 
 
-### 3. Troisième visualisation : Croisement des données <a id="Troisième visualisation-:-Croisement-des-données"></a>
+### 3. Troisième visualisation : croisement des données <a id="Troisième visualisation-:-Croisement-des-données"></a>
  
 Le but de cette visualisation est de ressortir, s'il y'en a, le rapport entre le nombre total d'allocataires de la branche famille sous l'angle des régions, le nombre de ménages et l'estimation de la population. Pour rappel, ces données complémentaires ont été prises sur le site de l'Institut National d'Etudes Démographiques (INED). La période considérée est de 2016 à 2020. Toutefois, en ce qui concerne le nombre de ménages, nous avons uniquement trouvé les données sur l'année 2018.
 
@@ -78,7 +78,7 @@ Le but de cette visualisation est de ressortir, s'il y'en a, le rapport entre le
  
 Ce graphique nous a permis de réaliser qu'il est difficile d'établir une corrélation entre l'estimation de la population et le nombre d'allocataires. On constate tout de même que le nombre de ménages dans une région est relativement égal à la moitié de la population.
 
-### 4. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département <a id="Quatrième-visualisation-:-Rapport-entre-les-aides-aux-logements-et-le-taux-de-chômage-par-département"></a>
+### 4. Quatrième visualisation : rapport entre les aides aux logement et le taux de chômage par département <a id="Quatrième-visualisation-:-Rapport-entre-les-aides-aux-logements-et-le-taux-de-chômage-par-département"></a>
 
 Cette visualisation a pour but de vérifier s'il existe une relation entre le taux de chômage et le nombre d'aides allouées aux populations en fonction des départements. Pour cela, nous avons limité notre étude à 2016 et 2020 qui réprésentent les dates extrêmes de notre période d'étude. Compte tenu de la faible évolution du nombre total d'aides, nous avons électionné uniquement ces deux années afin de ressortir une différence réelle dans les projections. L'outil utilisé est Datawrapper à travers le modèle carte choroplèthe des départements français. 
  
