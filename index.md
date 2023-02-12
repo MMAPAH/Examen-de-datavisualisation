@@ -19,15 +19,13 @@ III. [Difficultés rencontrées](#Difficultés-rencontrées)
 [Conclusion](#Conclusion) 
 
 
-
- 
 ## I. Origine des jeux de données, contrôle et amélioration de la qualité des données <a id="Présentation"></a>
 
 Pour mieux comprendre notre jeu de données, il est nécessaire de présenter ses origines ainsi que toutes les manipulations qui y ont été faites afin d'améliorer sa qualité. 
 
 ### 1. Origine du jeu de données <a id="Origine-du-jeu-de-données"></a>
 
-Notre jeu de données principal a pour titre "Population couverte par une aide personnelle au logement en décembre par EPCI". Couvrant la période de 2016 à 2020, il est fourni sous licence ouverte sur le site open data (CAFDATA) de la Caisse des Allocations Familiales (CAF). En effet, la CAF est un organisme de droit privé 1, 2 à compétence départementale 3 chargée de verser aux particuliers des prestations financières à caractère familial ou social (prestations légales), dans des conditions déterminées par la loi 4. Elle a de ce fait une compétence territoriale et une mission de service public qui consiste à reverser des aides financières soit pour des raisons familiales, soit pour des raisons sociales.
+Notre jeu de données principal a pour titre "Population couverte par une aide personnelle au logement en décembre par EPCI". Couvrant la période de 2016 à 2020, il est fourni sous licence ouverte sur le site open data (CAFDATA) de la Caisse des Allocations Familiales (CAF), téléchargeable [ici](http://data.caf.fr/dataset/population-couverte-par-une-aide-personnelle-au-logement-en-decembre-par-epci/resource/fecaa026-96ca-43a2-acd4-447d56abf2a6). En effet, la CAF est un organisme de droit privé 1, 2 à compétence départementale 3 chargée de verser aux particuliers des prestations financières à caractère familial ou social (prestations légales), dans des conditions déterminées par la loi 4. Elle a de ce fait une compétence territoriale et une mission de service public qui consiste à reverser des aides financières soit pour des raisons familiales, soit pour des raisons sociales.
 En vue de croiser ce jeu de données à un autre pour ressortir plus amples interprétations, nous avons choisi trois (03) jeux de données à savoir :
 * le taux de chômage localisé aux 3ᵉ trimestre (2016-2020) par départements, disponible sur le site de l'Institut National de la Statistique et des Etudes Economiques en abrégé INSEE ;
 * la population par région, téléchargeable sur le site de l'Institut Nationel d'Etudes Démographique (INED) ;
