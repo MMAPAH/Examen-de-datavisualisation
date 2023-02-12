@@ -125,4 +125,4 @@ En outre, nous avons également rencontré des difficultés pour afficher via un
  - Le manque de données sur le nombres de foyers par départements pour les années 2016, 2017, 2019 et 2010 ;
  - L'absence des données de géolocalisation qui a limité le choix des outils utilisés. De plus, les tentatives de réconciliation de ce fichier par OpenRefine se sont avérées vaines ;
   
-# Conclusion
+# Conclusion <a id="Conclusion"></a>
