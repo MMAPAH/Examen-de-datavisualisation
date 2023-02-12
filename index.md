@@ -4,11 +4,11 @@
 ## Table des matires
 I. [Origine du jeu de données, contrôle et amélioration de la qualité des données](#Présentation)  
 1. [Origine du jeu de données](#Origine-du-jeu-de-données) 
-2. [Contrôle et amlioration de la qualité des données](#Contrôle-et-amlioration-de-la-qualité-des-données) 
+2. [Contrôle et amélioration de la qualité des données](#Contrôle-et-amlioration-de-la-qualité-des-données) 
 II. [Visualisation des données](#Visualisation-des-données) 
 1. [Première visualisation : Nombre de foyers couverts par une aide au logement par département](#Première-visualisation-:-Nombre-de-foyers-couverts-par-une-aide-au-logement-par-département) 
 2. [Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions](#Deuxième-visualisation-:-Pourcentage-d'allocataires-de-la-branche-famille-par-ordre-croissant-des-régions) 
-3. [Troisième visualisation : Croisement des données](#Troisième visualisation-:-Croisement des données) 
+3. [Troisième visualisation : Croisement des données](#Troisième visualisation-:-Croisement-des-données) 
 4. [Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département](#Quatrième-visualisation-:-Rapport-entre-les-aides-aux-logements-et-le-taux-de-chômage-par-département) 
 III. [Difficultés rencontrées](#Difficultés-rencontrées) 
 1. [Les requêtes wikidata](#Les-requêtes-wikidata) 
@@ -22,7 +22,7 @@ III. [Difficultés rencontrées](#Difficultés-rencontrées)
 
 Pour mieux comprendre notre jeu de données, il est nécessaire de présenter ses origines ainsi que toutes les manipulations qui y ont été faites afin d'améliorer sa qualité. 
 
-### 1. Origine du jeu de données
+### 1. Origine du jeu de données <a id="Origine-du-jeu-de-données"></a>
 
 Notre jeu de données principal a pour titre "Population couverte par une aide personnelle au logement en décembre par EPCI". Couvrant la période de 2016 à 2020, il est fourni sous licence ouverte sur le site open data (CAFDATA) de la Caisse des Allocations Familiales (CAF). En effet, la CAF est un organisme de droit privé 1, 2 à compétence départementale 3 chargée de verser aux particuliers des prestations financières à caractère familial ou social (prestations légales), dans des conditions déterminées par la loi 4. Elle a de ce fait une compétence territoriale et une mission de service public qui consiste à reverser des aides financières soit pour des raisons familiales, soit pour des raisons sociales.
 En vue de croiser ce jeu de données à un autre pour ressortir plus amples interprétations, nous avons choisi trois (03) jeux de données à savoir :
@@ -30,7 +30,7 @@ En vue de croiser ce jeu de données à un autre pour ressortir plus amples inte
 * la population par région, téléchargeable sur le site de l'Institut Nationel d'Etudes Démographique (INED) ;
 * et le nombre de ménages par régions disponible sur le même site que le précédent.
     
-### 2. Contrôle et amlioration de la qualité des données
+### 2. Contrôle et amélioration de la qualité des données <a id="Contrôle-et-amélioration-de-la-qualité-des-données"></a>
 
 Le jeu de données provenant de la CAF est relativement complet. En effet, nous avons un fichier contenant 6286 lignes quasiment remplies. Cependant, le sprint qualité nous a permis de constater que dans certains départements quelques cellules sont incomplètes. Il s’agit principalement des  Etablissements Publics de Coopration Intercommunale (EPCI) des départements ayant les codes suivants : 971, 972, 973, 974, 976.  
 Ainsi, nous avons choisi de supprimer ces 23 (EPCI) présents sur la capture d'écran ci-après :
@@ -42,9 +42,9 @@ Notre jeu de données se présente ainsi de la manière suivante :
 
 <iframe title="Population couverte par une aide personnelle au logement en décembre (2016-2020)" aria-label="Table" id="datawrapper-chart-n1Azn" src="https://datawrapper.dwcdn.net/n1Azn/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1273" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
  
-## II. Visualisation des données
+## II. Visualisation des données <a id="Visualisation-des-données"></a>
 
-### 1. Première visualisation : Nombre de foyers couverts par une aide au logement par département
+### 1. Première visualisation : Nombre de foyers couverts par une aide au logement par département <a id="Première-visualisation-:-Nombre-de-foyers-couverts-par-une-aide-au-logement-par-département"></a>
 
 Aujourd’hui, plusieurs aident financières existent pour le logement. Entre l’Aide Personnalisée au logement (APL), l’Allocation au Logement à caractère Social (ALS) et l’Allocation au Logement à caractère Familial (ALF), la population est souvent dans le flou. En effet :
 * l’APL est l’aide au logement la plus récente. Elle s’adresse aux personnes percevant des revenus modestes. Peuvent être éligibles aux APL : les personnes qui habitent dans un foyer d’hébergement conventionné, les locataires, colocataires et sous-locataires (s’ils sont déclarés) ;
@@ -60,7 +60,7 @@ Notons que la notion d'allocataire est une notion de foyer (à rapprocher par ex
  
 Cette visualisation a été faite avec Flourish. Elle représente les différnetes aides octroyées dans les différents départements. Les filtres permettent de choisir l'année et l'aide qu'on souhaite visualiser. On peut ainsi projeter chaque allocation de façon particulière à une date donnée. En parcourant les bulles, les données suivantes sont perçues : le numéro du département, le nom du département et le nombre d'allocataires. On constate ainsi que quelque soient la nature de l'aide et l'année visualisée, Paris regorge le nombre le plus élevé d'allocataires.
  
-### 2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions
+### 2. Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions <a id="Deuxième-visualisation-:-Pourcentage-d'allocataires-de-la-branche-famille-par-ordre-croissant-des-régions"></a>
 
 Pour ressortir cette visualisation sous l'angle des régions, nous avons ajouter à nos données une nouvelle colonne dans laquelle nous avons mis pour chaque département, sa region de rattachement. L'outil utilisé ici est Datawrapper.
  
@@ -68,7 +68,7 @@ Pour ressortir cette visualisation sous l'angle des régions, nous avons ajouter
 
 Nous avons mis en exergue les 5 régions bénéficiant du plus grand nombre d'aides de la branche famille de 2016 à 2020. On constate que chacune de ces régions à gardé son rang au fil des années. Aussi, la région Île-de-France reste en tête avec son pourcentage de 11% qui est le même. Les données sont quasiment les mêmes pour toutes les régions, la petite différence se perçoit au niveau du nombres total d'allocataires qui croit légèrement chaque année. 
 
-### 3. Troisième visualisation : Croisement des données
+### 3. Troisième visualisation : Croisement des données <a id="Troisième visualisation-:-Croisement-des-données"></a>
  
 Le but de cette visualisation est de ressortir, s'il y'en a, le rapport entre le nombre total d'allocataires de la branche famille sous l'angle des régions, le nombre de ménages et l'estimation de la population. Pour rappel, ces données complémentaires ont été prises sur le site de l'Institut National d'Etudes Démographiques (INED). La période considérée est de 2016 à 2020. Toutefois, en ce qui concerne le nombre de ménages, nous avons uniquement trouvé les données sur l'année 2018.
 
@@ -76,7 +76,7 @@ Le but de cette visualisation est de ressortir, s'il y'en a, le rapport entre le
  
 Au regard de l'énorme écart entre l'estimation de la population et le nombre d'allocataires, nous pouvons affirmer qu'il n'existe 
 
-### 4. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département 
+### 4. Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département <a id="Quatrième-visualisation-:-Rapport-entre-les-aides-aux-logements-et-le-taux-de-chômage-par-département"></a>
 
 Cette visualisation a pour but de vérifier s'il existe une relation entre le taux de chômage et le nombre d'aides allouées aux populations en fonction des départements. Pour cela, nous avons limité notre étude à 2016 et 2020 qui réprésentent les dates extrêmes de notre période d'étude. Compte tenu de la faible évolution du nombre total d'aides, nous avons électionné uniquement ces deux années afin de faire un ressortir une différence réelle dans les projections. L'outil utilisé est Datawrapper à travers le modèle carte choroplèthe des départements français. 
  
@@ -101,9 +101,9 @@ Conclusion partielle
  
 En 2020, le nombre d'allocatires à considérablement augmenté dans toutes les régions. L'on aurait logiquement pensé que plus le taux de chômage diminuait, plus le nombre de foyers bénéficiares d'aides de la branche famille diminuerait également. Ce qui n'est pourtant pas le cas. En effet, entre 2016 et 2020, le taux de chômage est passé de l'intervalle 6,2%-15,4% à l'intervalle 4,6%-12,5%, Or le nombre d'allocataires est passé de /////////////////////////////////////////////////////////////. Il est important de noter qu'en 2020, en plus des régions partielles du Nord et du Sud ayant des taux élevés de chômage, tous les départements de l'Ouest perçoievnt une aide de la branche famille avec un nombre assez élevé. En tenant compte du fait que cette région avait un faible taux de chômage cette même année, nous pouvons dire qu'elle a soit un nombre élévé d'adultes handicapés, soit un fort taux de personnes à faibles revenus d'activité. Ainsi, nous constatons sans risque de se tromper, que le nombre d'allocataires de la branche famille dans une région n'est particulièrement pas tributaire du taux de chômage de cette région. 
  
-### III. Difficultés rencontrées
+### III. Difficultés rencontrées <a id="Difficultés-rencontrées"></a>
   
-#### 1. Les requêtes wikidata
+#### 1. Les requêtes wikidata <a id="Les-requêtes-wikidata"></a>
 
 Nous avons essayé d'afficher via une requête wikidata, les différente Caisses d'allocations familiales de France, ainsi que leurs adresse et leurs images. Toutefois, nos requêtes n'ont pas affiché le résultat escompté. Nous avons testé plusieurs requêtes parmi lesquelles la suivante :
 SELECT ?caf ?cafLabel ?localisation ?latitude ?longitude 
@@ -120,7 +120,8 @@ bd:serviceParam wikibase:language "fr". }
 
 En outre, nous avons également rencontré des difficultés pour afficher via une requête wikidata, les départements français sur une carte.
   
-#### 2. La visualisation des données
+#### 2. La visualisation des données <a id="La-visualisation-des-données"></a>
+ 
  - Chaque outil ayant sa particularité, la visualisation des données nécessite à chaque fois d'adaptation de la forme du fichier et même l'orthographe des données du fichier (comme ce fut le cas avec Datawrapper où il a fallut changer les libellés des département qui étaient écris en majuscule afin de respecter exactement la casse pour que datawrapper puisse valider les données) ;
  - Le manque de données sur le nombres de foyers par départements pour les années 2016, 2017, 2019 et 2010 ;
  - L'absence des données de géolocalisation qui a limité le choix des outils utilisés. De plus, les tentatives de réconciliation de ce fichier par OpenRefine se sont avérées vaines ;
