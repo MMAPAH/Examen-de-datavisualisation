@@ -2,7 +2,7 @@
 [center] Carte des différentes régions de France [/center]
 
 ## Table des matires
-I. [Origine du jeu de données, contrôle et amélioration de la qualité des données](#Origine-des-jeux-de-données-contrôle-et-amélioration-de-la-qualité-des-données)  
+I. [Origine du jeu de données, contrôle et amélioration de la qualité des données](#Présentation)  
 1. [Origine du jeu de données](#Origine-du-jeu-de-données) 
 2. [Contrôle et amlioration de la qualité des données](#Contrôle-et-amlioration-de-la-qualité-des-données) 
 II. [Visualisation des données](#Visualisation-des-données) 
@@ -18,7 +18,7 @@ III. [Difficultés rencontrées](#Difficultés-rencontrées)
 
 
  
-## I. Origine des jeux de données, contrôle et amélioration de la qualité des données 
+## I. Origine des jeux de données, contrôle et amélioration de la qualité des données <a id="Présentation"></a>
 
 Pour mieux comprendre notre jeu de données, il est nécessaire de présenter ses origines ainsi que toutes les manipulations qui y ont été faites afin d'améliorer sa qualité. 
 
