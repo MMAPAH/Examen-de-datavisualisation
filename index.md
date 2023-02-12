@@ -4,15 +4,15 @@
 ## Table des matires
 I. [Origine du jeu de données, contrôle et amélioration de la qualité des données](#Présentation)  
 1. [Origine du jeu de données](#Origine-du-jeu-de-données) 
-2. [Contrôle et amélioration de la qualité des données](#Contrôle-et-amlioration-de-la-qualité-des-données) 
+2. [Contrôle et amélioration de la qualité des données](#Contrôle-et-amlioration-de-la-qualité-des-données)
 II. [Visualisation des données](#Visualisation-des-données) 
-1. [Première visualisation : Nombre de foyers couverts par une aide au logement par département](#Première-visualisation-:-Nombre-de-foyers-couverts-par-une-aide-au-logement-par-département) 
-2. [Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions](#Deuxième-visualisation-:-Pourcentage-d'allocataires-de-la-branche-famille-par-ordre-croissant-des-régions) 
-3. [Troisième visualisation : Croisement des données](#Troisième visualisation-:-Croisement-des-données) 
-4. [Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département](#Quatrième-visualisation-:-Rapport-entre-les-aides-aux-logements-et-le-taux-de-chômage-par-département) 
+4. [Première visualisation : Nombre de foyers couverts par une aide au logement par département](#Première-visualisation-:-Nombre-de-foyers-couverts-par-une-aide-au-logement-par-département) 
+5. [Deuxième visualisation : Pourcentage d'allocataires de la branche famille par ordre croissant des régions](#Deuxième-visualisation-:-Pourcentage-d'allocataires-de-la-branche-famille-par-ordre-croissant-des-régions) 
+6. [Troisième visualisation : Croisement des données](#Troisième visualisation-:-Croisement-des-données) 
+7. [Quatrième visualisation : Rapport entre les aides aux logement et le taux de chômage par département](#Quatrième-visualisation-:-Rapport-entre-les-aides-aux-logements-et-le-taux-de-chômage-par-département)
 III. [Difficultés rencontrées](#Difficultés-rencontrées) 
-1. [Les requêtes wikidata](#Les-requêtes-wikidata) 
-2. [La visualisation des données](#La-visualisation-des-données) 
+9. [Les requêtes wikidata](#Les-requêtes-wikidata) 
+10. [La visualisation des données](#La-visualisation-des-données) 
 [Conclusion](#Conclusion) 
 
 
